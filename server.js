@@ -17,7 +17,7 @@ http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 
 client.on("ready", async () => {
   console.log(`${client.user.tag} sudah online!`);
-  client.user.setActivity("crazyvp7@gmail.com");
+  client.user.setActivity("with you");
 });
 
 client.on("message", async message => {
